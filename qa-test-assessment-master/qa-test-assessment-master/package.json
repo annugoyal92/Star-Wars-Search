@@ -25,7 +25,9 @@
     "core-js": "^2.6.11",
     "rxjs": "^6.5.5",
     "rxjs-compat": "^6.5.5",
-    "zone.js": "0.8.29"
+    "zone.js": "0.8.29",
+    "cucumber-html-reporter": "^5.2.0",
+    "protractor-cucumber-framework": "^6.2.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.12.4",
