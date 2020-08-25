@@ -1,12 +1,22 @@
 # QA Engineer Assessment Solution
 
 ## Introduction
-This project demonstrates the Protractor-Cucumber-TypeScript automation framework for UI Workflow tests of the Star Wars Search web application.
-It comprises of 2 Feature file that covers various scenarios:
-* Search for a Star Wars planet
-* Search for a Star Wars character
+This project demonstrates the test automation framework for Star Wars Search web application. It comprises of 2 Feature files that covers various UI Workflow test scenarios.
 
-Please follow README file for setup and execution. After execution you can find report under 'test-reports' folder.
+* Feature1: Search for a Star Wars planet
+    - Scenario1: Search planet name
+    - Scenario2: Search similar planet names
+    - Scenario3: Search invalid planet name
+    - Scenario4: Clear search form to remove previous search results
+    - Scenario5: Switch from planet search to character search
+* Feature2: Search for a Star Wars character
+    - Scenario1: Search character name
+    - Scenario2: Search similar character names
+    - Scenario3: Search invalid character name
+    - Scenario4: Clear search form to remove previous search results
+    - Scenario5: Switch from character search to planet search
+
+Please follow README file for setup and execution. After execution you can find execution report under 'test-reports' folder.
 
 ### Framework features
 * Used Protractor, Cucumber and TypeScript
@@ -15,12 +25,7 @@ Please follow README file for setup and execution. After execution you can find 
 
 ## Remarks 
 ```
-Currently, following two tests are failing due to a bug(reported below).
-* Feature: Search for a Star Wars planet
-    Scenario: Clear search form to remove previous search results
-
-* Feature: Search for a Star Wars character
-    Scenario: Clear search form to remove previous search results
+Currently, 2 tests are failing due to a bug reported below. For more details refer to the test report(generated after test execution)
 
 Bug: Previous search results are not removed
 Steps to reproduce:
@@ -31,7 +36,8 @@ Expected result: You should then get an empty result list (previous search resul
 
 Actual result : Previous search results are not removed
 ```
-###Submitted by
+
+##Submitted by
 ```
 Name: Annu Goyal
 ```
