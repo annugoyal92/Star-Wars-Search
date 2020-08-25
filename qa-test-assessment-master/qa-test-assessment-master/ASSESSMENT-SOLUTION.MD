@@ -6,7 +6,7 @@ It comprises of 2 Feature file that covers various scenarios:
 * Search for a Star Wars planet
 * Search for a Star Wars character
 
-Please follow README file for setup and execution.
+Please follow README file for setup and execution. After execution you can find report under 'test-reports' folder.
 
 ### Framework features
 * Used Protractor, Cucumber and TypeScript
